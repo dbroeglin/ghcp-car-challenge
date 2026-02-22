@@ -83,11 +83,22 @@ The challenge consists in creating an application with the following requirement
 
 There are several ways to interact with GitHub Copilot to build the application.
 
-### Use Copilot Coding Agent (recommended)
+### Use Copilot Coding Agent (recommended if you have a GitHub Copilot subscription)
 
-### Use Copilot in Visual Studio Code
+The Copilot Coding Agent is a powerful tool that can write code for you following your specification. Click on the "Copilot" icon next to the green "<> Code" icon (only available in paying GitHub Copilot subscriptions).
+
+### Use Copilot in Visual Studio Code in Codespaces (recommended if you have GitHub Copilot Free)
+
+You can can of course install Visual Studio Code locally and use GitHub Copilot there, but for the sake o time and simplicity, we recommend using GitHub Codespaces which provides a fully cloud-based development environment with GitHub Copilot enabled out of the box.
+
+> [!IMPORTANT]
+> If you have a GitHub Copilot Free Subscription use the Claude Haiku model (click on the "Add Models" dropdown at the bottom right of the Copilot Chat pane and when the models are available select "Claude Haiku 4.5"). Use the "Agent" mode.
 
 ### Use Copilot CLI
+
+An alternative that works for both GitHub Copilot Free and paying users is the Copilot CLI which allows you to interact with GitHub Copilot from the command line. 
+
+Install it by following those instructions: https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli
 
 ## Challenge submission
 
