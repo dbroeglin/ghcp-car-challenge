@@ -109,3 +109,16 @@ To submit your challenge got to https://github.com/dbroeglin/ghcp-car-challenge-
 - The URL to the GitHub Pages where your application is deployed.
 
 Make sure that both URLs are publicly accessible.
+
+--
+
+This fork contains a simple implementation for the challenge under the `public/` folder. It is a static site that queries Open-Meteo (no API key required) and displays current weather for a list of ski resorts.
+
+How to run locally:
+
+1. Open `public/index.html` in your browser (no build required).
+
+Deployment:
+
+- The repo includes a GitHub Actions workflow that deploys the `public/` folder to GitHub Pages on every push to `main`.
+

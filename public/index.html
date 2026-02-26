@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self' https:; script-src 'self' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https:; connect-src 'self' https:;" />
+  <title>Meteo des Neiges — Geneva Region</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <h1>Meteo des Neiges</h1>
+    <p class="tag">Weather for ski resorts around Geneva</p>
+  </header>
+
+  <main>
+    <section id="resorts" class="grid" aria-live="polite"></section>
+  </main>
+
+  <footer>
+    <small>Data from Open-Meteo · Static demo</small>
+  </footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
